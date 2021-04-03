@@ -24,7 +24,6 @@ export default function HeaderComponent({ categories }: AllCategories) {
                             <Link key={index} href={`/cursos/${category.id}`}>
                                 <a>{category.title}</a>
                             </Link>
-
                         })} */}
 
                     </div>
